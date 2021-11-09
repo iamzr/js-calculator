@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+.calc-screen {
+  width: 100%;
+  font-size: 10vh;
+  height: 10vh;
+  border: none;
+  background-color: #252525;
+  color: #fff;
+  text-align: right;
+  margin: 1vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button {
+  flex: 0 0 32%;
+  margin-bottom: 1vh;
+  font-size: 8vh;
+  height: 9vh;
+  border: none;
+  background-color: #252525;
+  color: #fff;
+  text-align: center;
+}
+
+@media only screen and (min-width: 1030px) {
+  .container {
+    max-width: 1024px;
+    width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
